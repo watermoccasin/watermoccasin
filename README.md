@@ -14,10 +14,10 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt)
 * Option to speed up playback for any device
 * Will obtain a playlist by length (even if sped up)
 
-## Who do I use it?
+## How do **I** use it?
 `watermoccasin.py -s 1.85 -w 45`
 
-How to install:
+## Installation
 
 1. Obtain an [NPR developer account](https://dev.npr.org/).
 2. Create an [application](https://dev.npr.org/console) to use.
