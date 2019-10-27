@@ -3,6 +3,7 @@ bin/
 Scripts/
 settings.json
 pyvenv.cfg
+*.bat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

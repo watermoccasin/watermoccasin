@@ -15,7 +15,7 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt)
 * Will obtain a playlist by length (even if sped up)
 
 ## How do **I** use it?
-`watermoccasin.py -s 1.85 -w 45`
+`watermoccasin -s 1.85 -w 45`
 
 ## Installation
 
@@ -24,3 +24,5 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt)
 3. Copy the "Application Secret" for use later in the app.
 4. Ensure [ffmpeg](https://www.ffmpeg.org/download.html) is in the path.
 5. `pip install watermoccasin`.
+
+Note: The destination directory is cleared of previous media.
