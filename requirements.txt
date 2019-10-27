@@ -7,3 +7,4 @@ mutagen==1.42.0
 npr==2.3.0
 requests==2.22.0
 urllib3==1.25.3
+humanfriendly==4.18
