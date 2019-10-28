@@ -20,7 +20,7 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt)
                         media`
 
 ## How do **I** use it?
-`watermoccasin -s 1.85 -w 45 d:\`
+`watermoccasin d:\ -s 1.85 -w 45`
 
 ## Installation
 1. Obtain an [NPR developer account](https://dev.npr.org/).

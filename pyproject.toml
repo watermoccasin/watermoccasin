@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "watermoccasin"
-version = "1.0.6"
+version = "1.0.7"
 description = "Convert a NPR ONE news feed for offline listening with options for speed up and timed playlist"
 authors = ["Alex Reich <watermoccasin@alexreich.com>"]
 

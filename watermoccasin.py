@@ -47,7 +47,6 @@ def main():
             os.remove(os.path.join(dir,file))
 
     time_length = track_count = 0
-    npr.auth()
     npr.login()
     player = npr.One()
     while time_length < workout_length:
