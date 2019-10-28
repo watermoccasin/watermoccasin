@@ -8,7 +8,6 @@ from mutagen.mp4 import MP4
 from mutagen.aac import AAC
 
 def main():
-    npr.auth()
     root_name = '_wm_npr_one_'
     parser = argparse.ArgumentParser(description='NPR One gathering app for offline use.', epilog='more info/coffee tip at github/watermoccasin')
     parser.add_argument('media', default='D:\\',
@@ -48,7 +47,8 @@ def main():
             os.remove(os.path.join(dir,file))
 
     time_length = track_count = 0
-
+    npr.auth()
+    npr.login()
     player = npr.One()
     while time_length < workout_length:
         track_count += 1

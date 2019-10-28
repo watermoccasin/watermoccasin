@@ -14,15 +14,22 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt)
 * Option to speed up playback for any device
 * Will obtain a playlist by length (even if sped up)
 
+## Useage
+`watermoccasin.py [-h] [-w [WORKOUT]] [-s [SPEEDUP]]
+                        [-l [{DEBUG,INFO,WARNING,ERROR,CRITICAL}]] [-v]
+                        media`
+
 ## How do **I** use it?
-`watermoccasin -s 1.85 -w 45`
+`watermoccasin -s 1.85 -w 45 d:\`
 
 ## Installation
-
 1. Obtain an [NPR developer account](https://dev.npr.org/).
 2. Create an [application](https://dev.npr.org/console) to use.
-3. Copy the "Application Secret" for use later in the app.
-4. Ensure [ffmpeg](https://www.ffmpeg.org/download.html) is in the path.
-5. `pip install watermoccasin`.
+3. Copy the "Application ID & Secret" for use later in the app.
+4. `pip install watermoccasin`.
+5. Ensure [ffmpeg](https://www.ffmpeg.org/download.html) is in the path.
+6. The first time, you will be required to set up your NPR account, follow the instructions.
+7. Test with you your local temp directory or removable drive.
+
 
 Note: The destination directory is cleared of previous media.
