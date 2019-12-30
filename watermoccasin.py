@@ -71,12 +71,12 @@ def main():
         if args.speedup: 
             speedup_cmd = ' -filter:a "atempo={0}" '.format(args.speedup)
 
-        conversion_command = 'ffmpeg -y -i {0} {1} -vn {2}'.format(fn_orig, speedup_cmd, fn)
+        conversion_command = 'ffmpeg -y -i {0} {1} -vn "{2}"'.format(fn_orig, speedup_cmd, fn)
 
         logging.info(conversion_command)
         with open(os.devnull, 'rb') as devnull:
             p = subprocess.Popen(conversion_command, stdin=devnull, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        p_out, p_err = p.communicate()
+        p_out = p.communicate()
 
         logging.debug(p_out, time_length)
 
