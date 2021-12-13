@@ -13,7 +13,7 @@ def main():
     parser.add_argument('media', default='D:\\',
                         help='path to store media')
     parser.add_argument('-w', '--workout',
-                        nargs='?', default=60, type=int,
+                        nargs='?', default=30, type=int,
                         help='length of workout in minutes')
     parser.add_argument('-s', '--speedup',
                         nargs='?', const=2.0, type=float,
@@ -96,3 +96,5 @@ def main():
 
         time_length += audio.info.length
     print('Completed: {0} files for {1}.'.format(track_count, format_timespan(time_length)))
+
+main()
